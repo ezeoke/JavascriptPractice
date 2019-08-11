@@ -107,4 +107,4 @@
 
 //ARRAY.isARRAY METHOD - returns true if value is an array
 // console.log(Array.isArray([]));
-// console.log(Array.isArray({}));
+// console.log(Array.isArray({}))
