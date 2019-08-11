@@ -1,13 +1,13 @@
 //Operating system method-for info of the os
-const os = require("os");
+// const os = require("os");
 
-const mem = os.userInfo();
+// const mem = os.userInfo();
 
 // console.log(mem);
 
 const EventEmitter = require("events");
 
-class Looger extends EventEmitter {
+class Logger extends EventEmitter {
   check(cuba) {
     console.log(cuba);
 
