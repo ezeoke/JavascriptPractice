@@ -1,14 +1,7 @@
 //require from another file
-// const logger = require("./app");
+const logger = require("./nodeExport");
 
-// logger.log("baba");
-
-//Operating system method-for info of the os
-// const os = require("os");
-
-// const mem = os.userInfo();
-
-// console.log(mem);
+logger("baba");
 
 //expect an event
 const EventEmitter = require("events");
